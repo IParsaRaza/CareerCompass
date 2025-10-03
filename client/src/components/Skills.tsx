@@ -31,11 +31,11 @@ export default function Skills() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="p-6 md:p-8">
-            <h3 className="text-xl font-semibold mb-6 text-pink-500">Hard Skills</h3>
+            <h3 className="text-xl font-semibold mb-6 text-primary">Hard Skills</h3>
             <div className="space-y-4">
               {hardSkills.map((skill, index) => (
                 <div key={index} className="flex gap-3" data-testid={`skill-hard-${index}`}>
-                  <Check className="h-5 w-5 text-pink-500 flex-shrink-0 mt-0.5" />
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="font-medium">{skill.name}</p>
                     <p className="text-sm text-muted-foreground mt-1">{skill.description}</p>
@@ -46,11 +46,11 @@ export default function Skills() {
           </Card>
 
           <Card className="p-6 md:p-8">
-            <h3 className="text-xl font-semibold mb-6 text-pink-500">Soft Skills</h3>
+            <h3 className="text-xl font-semibold mb-6 text-primary">Soft Skills</h3>
             <div className="space-y-4">
               {softSkills.map((skill, index) => (
                 <div key={index} className="flex gap-3" data-testid={`skill-soft-${index}`}>
-                  <Check className="h-5 w-5 text-pink-500 flex-shrink-0 mt-0.5" />
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="font-medium">{skill.name}</p>
                     <p className="text-sm text-muted-foreground mt-1">{skill.description}</p>

@@ -51,8 +51,8 @@ export default function Education() {
               data-testid={`card-education-${index}`}
             >
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-pink-500/10 rounded-lg">
-                  <GraduationCap className="h-6 w-6 text-pink-500" />
+                <div className="p-3 bg-primary/10 rounded-lg">
+                  <GraduationCap className="h-6 w-6 text-primary" />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold mb-1">{step.degree}</h3>
@@ -67,10 +67,10 @@ export default function Education() {
           ))}
         </div>
 
-        <Card className="p-8 bg-pink-500/5 border-pink-500/20">
+        <Card className="p-8 bg-primary/5 border-primary/20">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div className="flex items-center gap-4">
-              <DollarSign className="h-8 w-8 text-pink-500" />
+              <DollarSign className="h-8 w-8 text-primary" />
               <div>
                 <p className="text-sm text-muted-foreground">Total Investment</p>
                 <p className="text-3xl font-bold font-mono">{totalCost}</p>

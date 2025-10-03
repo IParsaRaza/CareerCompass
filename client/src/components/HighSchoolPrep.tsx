@@ -34,8 +34,8 @@ export default function HighSchoolPrep() {
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="p-6 md:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 bg-pink-500/10 rounded-lg">
-                <Atom className="h-6 w-6 text-pink-500" />
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <Atom className="h-6 w-6 text-primary" />
               </div>
               <h3 className="text-xl font-semibold">Science Courses</h3>
             </div>
@@ -46,7 +46,7 @@ export default function HighSchoolPrep() {
                   className="flex items-start gap-3 p-3 rounded-lg hover-elevate bg-muted/40"
                   data-testid={`course-science-${index}`}
                 >
-                  <BookOpen className="h-5 w-5 text-pink-500 flex-shrink-0 mt-0.5" />
+                  <BookOpen className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-sm">{course}</span>
                 </div>
               ))}
@@ -55,8 +55,8 @@ export default function HighSchoolPrep() {
 
           <Card className="p-6 md:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 bg-pink-500/10 rounded-lg">
-                <Calculator className="h-6 w-6 text-pink-500" />
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <Calculator className="h-6 w-6 text-primary" />
               </div>
               <h3 className="text-xl font-semibold">Mathematics Courses</h3>
             </div>
@@ -67,13 +67,13 @@ export default function HighSchoolPrep() {
                   className="flex items-start gap-3 p-3 rounded-lg hover-elevate bg-muted/40"
                   data-testid={`course-math-${index}`}
                 >
-                  <BookOpen className="h-5 w-5 text-pink-500 flex-shrink-0 mt-0.5" />
+                  <BookOpen className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-sm">{course}</span>
                 </div>
               ))}
             </div>
 
-            <div className="mt-8 p-4 bg-pink-500/5 rounded-lg border border-pink-500/20">
+            <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
               <p className="text-sm text-muted-foreground">
                 <span className="font-semibold text-foreground">Pro Tip:</span> Focus on honors and 
                 dual credit courses to build a strong academic foundation for medical school applications.
