@@ -12,4 +12,4 @@ This is a file that contains:
 - setting of work
 - typical work day
 - classes I need to take in high school to prepare for my occupation
-- and links I used! 
+- and links I used for reasearch! 
