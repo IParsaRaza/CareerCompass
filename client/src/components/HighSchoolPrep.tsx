@@ -72,13 +72,6 @@ export default function HighSchoolPrep() {
                 </div>
               ))}
             </div>
-
-            <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
-              <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Pro Tip:</span> Focus on honors and 
-                dual credit courses to build a strong academic foundation for medical school applications.
-              </p>
-            </div>
           </Card>
         </div>
       </div>
