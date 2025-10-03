@@ -7,6 +7,7 @@ import Skills from "@/components/Skills";
 import SalaryGrowth from "@/components/SalaryGrowth";
 import WorkEnvironment from "@/components/WorkEnvironment";
 import HighSchoolPrep from "@/components/HighSchoolPrep";
+import Resources from "@/components/Resources";
 import Navigation from "@/components/Navigation";
 
 export default function Home() {
@@ -55,6 +56,7 @@ export default function Home() {
         <WorkEnvironment />
         <HighSchoolPrep />
       </div>
+      <Resources />
     </div>
   );
 }
