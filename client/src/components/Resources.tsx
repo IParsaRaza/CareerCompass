@@ -28,6 +28,11 @@ export default function Resources() {
       title: "NJ Consumer Affairs - Registration FAQ",
       url: "https://www.njconsumeraffairs.gov/dcu/Pages/FAQregistration.aspx#:~:text=What%20is%20the%20application%20fee,will%20be%20provided%20to%20you.",
       description: "Application fees and registration process"
+    },
+    {
+      title: "What is Pharmaceutical Manufacturing?",
+      url: "https://www.innopharmaeducation.com/blog/what-is-pharmaceutical-manufacturing-why-is-it-important#:~:text=Pharmaceutical%20manufacturing%20is%20the%20name,leading%20to%20numerous%20career%20opportunities.",
+      description: "Understanding pharmaceutical manufacturing and career opportunities"
     }
   ];
 
