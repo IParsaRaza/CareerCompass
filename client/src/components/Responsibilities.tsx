@@ -46,7 +46,7 @@ export default function Responsibilities() {
                 className="p-6 hover-elevate"
                 data-testid={`card-responsibility-${index}`}
               >
-                <Icon className="h-10 w-10 text-primary mb-4" />
+                <Icon className="h-10 w-10 text-pink-500 mb-4" />
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {item.description}

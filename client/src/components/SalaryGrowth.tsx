@@ -16,14 +16,14 @@ export default function SalaryGrowth() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <Card className="p-8 text-center hover-elevate" data-testid="card-salary-average">
-            <DollarSign className="h-10 w-10 text-primary mx-auto mb-4" />
+            <DollarSign className="h-10 w-10 text-pink-500 mx-auto mb-4" />
             <p className="text-sm text-muted-foreground mb-2">Average Salary</p>
-            <p className="text-4xl font-bold font-mono text-primary">$128,423</p>
+            <p className="text-4xl font-bold font-mono text-pink-500">$128,423</p>
             <p className="text-xs text-muted-foreground mt-2">per year</p>
           </Card>
 
           <Card className="p-8 text-center hover-elevate" data-testid="card-salary-range">
-            <BarChart3 className="h-10 w-10 text-primary mx-auto mb-4" />
+            <BarChart3 className="h-10 w-10 text-pink-500 mx-auto mb-4" />
             <p className="text-sm text-muted-foreground mb-2">Salary Range</p>
             <p className="text-2xl font-bold font-mono">$25,500 - $295,000</p>
             <p className="text-xs text-muted-foreground mt-2">based on experience & specialty</p>

@@ -41,8 +41,8 @@ export default function WorkEnvironment() {
                 className="p-6 text-center hover-elevate"
                 data-testid={`card-environment-${index}`}
               >
-                <div className="inline-flex items-center justify-center p-3 bg-primary/10 rounded-lg mb-4">
-                  <Icon className="h-8 w-8 text-primary" />
+                <div className="inline-flex items-center justify-center p-3 bg-pink-500/10 rounded-lg mb-4">
+                  <Icon className="h-8 w-8 text-pink-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{aspect.title}</h3>
                 <p className="text-sm text-muted-foreground">{aspect.description}</p>

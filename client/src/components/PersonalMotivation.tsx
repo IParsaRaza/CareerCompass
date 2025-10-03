@@ -6,7 +6,7 @@ export default function PersonalMotivation() {
     <section className="py-16 md:py-24 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center gap-4 mb-8">
-          <Heart className="h-8 w-8 text-primary" />
+          <Heart className="h-8 w-8 text-pink-500" />
           <h2 className="text-3xl md:text-4xl font-bold">Why I Chose This Path</h2>
         </div>
         
