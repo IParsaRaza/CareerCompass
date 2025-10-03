@@ -1,15 +1,1 @@
-This is a file that contains:
-- My occupation of choice
-- why I choose that occupation 
-- what I'll have to do in the job
-- required education
-- how much it will cost for the job
-- how long I will be in college/university
-- hard skill
-- soft skills
-- salary
-- projected growth of job
-- setting of work
-- typical work day
-- classes I need to take in high school to prepare for my occupation
-- and links I used! 
+
