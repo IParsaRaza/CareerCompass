@@ -9,6 +9,7 @@ import WorkEnvironment from "@/components/WorkEnvironment";
 import HighSchoolPrep from "@/components/HighSchoolPrep";
 import Resources from "@/components/Resources";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const motivationRef = useRef<HTMLDivElement>(null);
@@ -57,6 +58,7 @@ export default function Home() {
         <HighSchoolPrep />
       </div>
       <Resources />
+      <Footer />
     </div>
   );
 }
