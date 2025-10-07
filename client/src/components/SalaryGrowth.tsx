@@ -45,7 +45,7 @@ export default function SalaryGrowth() {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 The pharmaceutical medicine field is experiencing rapid growth due to increasing demand for new medications, 
                 aging populations, and ongoing medical research advancements. This 19% growth rate is significantly higher 
-                than the average for most professions, indicating strong job security and opportunities for advancement.
+                than the average for most professions, indicating strong job placements and opportunities for advancement.
               </p>
             </div>
           </div>
